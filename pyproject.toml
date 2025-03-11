@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "adorbents-isotherms"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.3.3"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+scikit-learn = "^1.6.0"
+tensorflow = {extras = ["and-cuda"], version = "^2.18.0"}
+missingno = "^0.5.2"
+nbimporter = "^0.3.4"
+graphviz = "^0.20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

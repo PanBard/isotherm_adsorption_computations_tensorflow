@@ -1,0 +1,6 @@
+# .gitignore
+.venv/
+all_data.csv
+all_artcles.json
+
+
